@@ -1,16 +1,16 @@
 # SkinSight-Automated-Skin-Cancer-Detection-System-Using-Deep-Learnig
 SkinSight is an AI-powered medical imaging system designed to assist in the early detection of skin cancer using deep learning. The system analyzes skin lesion images and classifies them into benign or malignant categories, providing a risk-based assessment for decision support.
-🧴 SkinSight: Automated Skin Cancer Detection Using Deep Learning
+# 🧴 SkinSight: Automated Skin Cancer Detection Using Deep Learning
 🌐 Live Demo
 👉 Try the App:
 https://skin-insight-project.lovable.app/
 
-📌 Project Overview
+# 📌 Project Overview
 SkinSight is an AI-powered system designed to assist in the early detection of skin cancer using deep learning. The application analyzes skin lesion images and classifies them into benign or malignant categories, providing a risk-based assessment for decision support.
 
 This project combines deep learning, medical-focused evaluation, and real-time deployment into a user-friendly web application.
 
-🎯 Problem Statement
+# 🎯 Problem Statement
 Skin cancer, especially melanoma, is one of the most dangerous forms of cancer. Early detection is critical, but:
 
 Requires expert dermatologists
@@ -21,7 +21,7 @@ Is not easily accessible in remote areas
 
 👉 SkinSight provides an automated and accessible AI-based screening solution.
 
-🚀 Features
+# 🚀 Features
 🧠 Deep Learning-based classification (Benign vs Malignant)
 
 ⚡ Real-time prediction through web application
@@ -36,7 +36,7 @@ Is not easily accessible in remote areas
 
 📈 Uses medical evaluation metrics (Recall, ROC-AUC)
 
-🖼️ Application Preview
+# 🖼️ Application Preview
 🔹 Upload Interface
 Upload a skin lesion image easily
 
@@ -51,11 +51,12 @@ Prediction Score
 
 Visual indicators
 
-📌 (Add screenshots here later for better GitHub appearance)
 
-🏗️ System Architecture
+
+# 🏗️ System Architecture
 User → Image Upload → Preprocessing → MobileNetV2 Model → Prediction → Risk Analysis → Result Display
-🧠 Technologies Used
+
+# 🧠 Technologies Used
 🔹 Programming
 Python
 
@@ -87,7 +88,7 @@ VS Code
 
 Git & GitHub
 
-🗂️ Dataset
+# 🗂️ Dataset
 HAM10000 Dataset
 
 Dermoscopic images of skin lesions
@@ -97,7 +98,7 @@ Benign
 
 Malignant
 
-⚙️ Model Details
+# ⚙️ Model Details
 Architecture: MobileNetV2 (Pretrained on ImageNet)
 
 Fine-tuning: Last layers unfrozen
@@ -110,7 +111,7 @@ Loss Function: Binary Crossentropy
 
 Optimizer: Adam
 
-🧪 Evaluation Metrics
+# 🧪 Evaluation Metrics
 Accuracy
 
 Precision
@@ -121,7 +122,7 @@ ROC-AUC Score
 
 Confusion Matrix
 
-📊 Results
+# 📊 Results
 Accuracy ≈ 90%
 
 ROC-AUC ≈ 0.86
@@ -130,7 +131,7 @@ Improved malignant detection after fine-tuning
 
 Stable training with reduced overfitting
 
-🔄 Workflow
+# 🔄 Workflow
 User uploads a skin image
 
 Image is preprocessed (resize + normalize)
@@ -143,7 +144,7 @@ Risk level is classified
 
 Result is displayed instantly
 
-⚠️ Limitations
+# ⚠️ Limitations
 Works best with dermoscopic images
 
 Sensitive to lighting and image quality
@@ -152,7 +153,7 @@ May misclassify non-lesion patterns (pen marks, shadows)
 
 Not a replacement for medical diagnosis
 
-🔮 Future Enhancements
+# 🔮 Future Enhancements
 Multi-class skin disease classification
 
 Mobile app (Android/iOS)
@@ -163,12 +164,12 @@ Larger dataset training
 
 Clinical validation
 
-📚 References
+# 📚 References
 Esteva et al., Dermatologist-level classification of skin cancer, Nature (2017)
 
 Howard et al., MobileNetV2, CVPR (2018)
 
 HAM10000 Dataset – Harvard Dataverse
 
-⚠️ Disclaimer
+# ⚠️ Disclaimer
 This project is developed for educational purposes only and is not a medical diagnostic tool. Always consult a certified dermatologist for medical advice.
