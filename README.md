@@ -57,9 +57,11 @@ User → Image Upload → Preprocessing → MobileNetV2 Model → Prediction →
 
 # 🧠 Technologies Used
 🔹 Programming
+
 Python
 
 🔹 Deep Learning
+
 TensorFlow
 
 Keras
@@ -67,6 +69,7 @@ Keras
 MobileNetV2 (Transfer Learning)
 
 🔹 Libraries
+
 NumPy
 
 Pandas
@@ -76,11 +79,11 @@ Scikit-learn
 Matplotlib
 
 🔹 Deployment
-Streamlit
 
 Lovable AI
 
 🔹 Tools
+
 Jupyter Notebook
 
 VS Code
@@ -88,16 +91,19 @@ VS Code
 Git & GitHub
 
 # 🗂️ Dataset
+
 HAM10000 Dataset
 
 Dermoscopic images of skin lesions
 
 Classes:
+
 Benign
 
 Malignant
 
 # ⚙️ Model Details
+
 Architecture: MobileNetV2 (Pretrained on ImageNet)
 
 Fine-tuning: Last layers unfrozen
@@ -163,12 +169,6 @@ Larger dataset training
 
 Clinical validation
 
-# 📚 References
-Esteva et al., Dermatologist-level classification of skin cancer, Nature (2017)
-
-Howard et al., MobileNetV2, CVPR (2018)
-
-HAM10000 Dataset – Harvard Dataverse
 
 # ⚠️ Disclaimer
 This project is developed for educational purposes only and is not a medical diagnostic tool. Always consult a certified dermatologist for medical advice.
